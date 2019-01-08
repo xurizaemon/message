@@ -68,8 +68,8 @@ Tokens
     'callback arguments' => ['x', 'z']
   ]
   ```
-  That will get the string '!replaced-by-foo' in the message body to be replaced
-  by the output of calling foo('x', 'z').
+  That will get the string `'!replaced-by-foo'` in the message body to be replaced
+  by the output of calling `foo('x', 'z')`.
 
 Partials
 ========
@@ -86,12 +86,14 @@ Enable the Message-example module to see it in action.
 
 View modes
 ==========
+
 Message module exposes the "message-text" field(s) and allows an
 administrator to set visibility and order via "Manage display" page, e.g.
-admin/structure/messages/manage/[YOUR-MESSAGE-TEMPLATE]/display
+`admin/structure/messages/manage/[YOUR-MESSAGE-TEMPLATE]/display`
 
 Auto-purging
 ============
+
 Message supports deletion on Cron of messages according to quota and age
 definition.
 
@@ -103,7 +105,7 @@ definition.
 * Message template purging definition:
 
   Each message template my override the global purging settings. Under
-  admin/structure/messages/manage/[YOUR-MESSAGE-TEMPLATE], clicking the
+  `admin/structure/messages/manage/[YOUR-MESSAGE-TEMPLATE]`, clicking the
   "Override global settings" checkbox will make the global settings ignore the
   current message template and will allow to set purging definitions for the current
   template.
