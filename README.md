@@ -76,7 +76,7 @@ admin/structure/messages/manage/[YOUR-MESSAGE-TEMPLATE]/display
 
 Auto-purging
 ============
-Message supports deleteion on Cron of messages according to quota and age
+Message supports deletion on Cron of messages according to quota and age
 definition.
 
 * Global purging definition
