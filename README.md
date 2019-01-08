@@ -59,7 +59,7 @@ Tokens
 
 Partials
 ========
-The message body has multiple cardinallity, allowing to separate html markup
+The message body has multiple cardinality, allowing to separate html markup
 from the actual message content, and also, allowing to only render a selected
 part of the message.
 The partials are reflected in the "Manage display" page of every message template,
