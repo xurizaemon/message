@@ -99,7 +99,7 @@ definition.
 
 * Global purging definition:
 
-  Under admin/config/message it is possible to set purging definition by
+  Under `admin/config/message` it is possible to set purging definition by
   maximal quota or maximal message age in days.
 
 * Message template purging definition:
